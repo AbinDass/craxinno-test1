@@ -1,0 +1,50 @@
+.glass-container {
+    background: rgba(255, 255, 255, 0.15); /* Adjust the background color and opacity */
+    border-radius: 10px; /* Adjust the border radius */
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Adjust the blur strength */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 400px; /* Adjust the maximum width of the container */
+    margin: auto; /* Center the container */
+}
+
+.glass-container h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.glass-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.glass-container input[type="text"],
+.glass-container input[type="password"],
+.glass-container button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the input/button background color and opacity */
+    color: #fff;
+}
+
+.glass-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Adjust the placeholder color and opacity */
+}
+
+.glass-container button {
+    background-color: #1e90ff; /* Adjust the button background color */
+    cursor: pointer;
+}
+
+.glass-container p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.register-btn{
+    background-image:linear-gradient(to right, #6A36FF, #AC5FE6);
+}
